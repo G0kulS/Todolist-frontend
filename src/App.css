@@ -1,0 +1,247 @@
+.header
+{
+  text-align: center;
+  color:black;
+  height: 10vh;
+  font-size:5vh;
+  font-weight: bolder;
+}
+.monthname
+{
+  vertical-align: middle;
+}
+table,th,td
+{
+  border: 1px solid brown;
+}
+th
+{
+  height:7vh;
+  text-align: center;
+  font-size: 3vh;
+  
+}
+td
+{
+  height: 11vh;
+  text-align: center;
+  font-size: 5vh;
+  width:13.57%;
+}
+td:hover
+{
+  background-color:#e1f7f3;
+}
+.sidebutton
+{
+  
+  text-align: center;
+  font-size: 4vh;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.alignbutton
+{
+  position: relative;
+  top: 2vh;
+  right:1vw
+}
+.logout
+{
+  position: relative;
+  top: 1.5vh;
+}
+.taskheader
+{
+  text-align: center;
+  color: #e1f7f3;
+  height: 7vh;
+  font-size:4vh;
+  font-weight:500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.addbutton
+{
+  background-color: #1abc9c;
+  width:60px;
+  height:60px;
+  border-radius: 30px;
+  position:absolute;
+  top:80vh;
+  left:85vw;
+}
+.modalheader
+{
+  
+  background-color: #1abc9c;
+}
+.login
+{
+  color:black;
+  position: relative;
+  top:35vh;
+}
+.label
+{
+  font-size: 2.5vh;
+}
+.register
+{
+  color:black;
+  position: relative;
+  top:20vh;
+}
+
+.task-1
+{
+  height: 93vh;
+ 
+}
+.bigger:hover
+{
+  transform: scale(1.2);
+}
+.task
+{
+  border: 0px;
+}
+.time
+{
+  width: 8.33%;
+  text-align: left;
+}
+.name 
+{
+  width: 25%;
+  text-align: left;
+}
+.des
+{
+  width: 39.7%;
+  text-align: left;
+}
+.action
+{
+  width:20%;
+  text-align: left;
+}
+.taskdata 
+{
+  font-size: 3vh;
+  height: 4vh;
+  text-align: left;
+}
+.taskbackground
+{
+  height:93vh;
+  background: linear-gradient(-45deg, #ee7752, #86f7f7, #69cef3, #7ffadd);
+  background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.resetpass
+{
+  position: relative;
+  top:50%;
+}
+.reset
+{ 
+  height: 100vh;
+  background: linear-gradient(-45deg, #ee7752, #86f7f7, #69cef3, #7ffadd);
+  background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
+  }
+  .textdes
+  {
+    font-size: 3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top:20vh;
+  }
+  .design-text
+  {
+    color: rgb(136, 136, 136);
+  }
+  @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+.task-done
+{
+  text-align:center;
+  background:linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
+  color:rgb(40, 139, 0);
+  font-family:'Roboto';
+  font-weight: 800;
+  font-weight:900;
+  font-size:6vh;
+  padding-top:40vh;
+  height:100vh;
+  overflow:hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
+}
+.first {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.first:first-of-type {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 7s infinite;
+}
+
+.first:last-of-type {
+  width:0px;
+  animation: reveal 7s infinite;
+}
+
+.first:last-of-type .second {
+  margin-left:-355px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
+
+.tooltipbtn
+{
+  margin-bottom: 7vh;
+}
+
+.icon-content
+{
+  position: relative;
+  top: 12vh;
+}
