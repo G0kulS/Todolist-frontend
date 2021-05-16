@@ -191,7 +191,7 @@ function MyVerticallyCenteredModal(props) {
                     }
                  else
                  { 
-                   if(currenthour==array[0]&&array[1]>=currentmin+10)
+                   if(currenthour==array[0]&&array[1]>=currentmin+20)
                    {
                     let obj = 
                     {
@@ -212,11 +212,11 @@ function MyVerticallyCenteredModal(props) {
                    }
                    else
                    {
-                   updatemessage("Please register atleast a 10mins before");
+                   updatemessage("Please register atleast a 20-mins before");
                    updatett("");}
                  }
               }else{
-                updatemessage("Please register atleast a 10mins before");
+                updatemessage("Please register atleast a 20-mins before");
                    updatett("");
           }}
           else
@@ -319,7 +319,7 @@ function MyVerticallyCenteredEditModal(props) {
                     }
                  else
                  { 
-                   if(currenthour==array[0]&&array[1]>=currentmin+10)
+                   if(currenthour==array[0]&&array[1]>=currentmin+20)
                    {
                     let obj = 
                     {
@@ -340,12 +340,12 @@ function MyVerticallyCenteredEditModal(props) {
                    }
                    else
                    {
-                   updatemessage("Please register atleast a 10mins before");
+                   updatemessage("Please register atleast a 20-mins before");
                    updatett("");}
                  }
               }
               else{
-                updatemessage("Please register atleast a 10mins before");
+                updatemessage("Please register atleast a 20-mins before");
                 updatett("");
           }}
           else
